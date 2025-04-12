@@ -107,7 +107,7 @@ function addTodoToDOM(todo, isCompleted) {
                     <span>${formatDate(todo.date)}</span>
                     ${
                       isOverdue
-                        ? '<span class="ml-2 text-red-500">(Overdue)</span>'
+                        ? '<span class="ml-2 text-red-500">(Overdue/Late)</span>'
                         : ""
                     }
                 </div>
